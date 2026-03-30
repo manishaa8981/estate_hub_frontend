@@ -36,7 +36,7 @@
 //   addFavourite:     (id) => request(`/favourites/${id}`, { method: "POST" }),
 //   removeFavourite:  (id) => request(`/favourites/${id}`, { method: "DELETE" }),
 // };
-const BASE = import.meta.env.VITE_API_URL || "/api";
+const BASE = import.meta.env.VITE_API_URL;
 
 function getToken() {
   return localStorage.getItem("token");
