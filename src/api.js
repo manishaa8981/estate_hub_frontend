@@ -1,5 +1,5 @@
-const BASE = 'http://localhost:5000/api'
-
+const BASE = 'http://estate-hub-backend.onrender.com/api'
+// const BASE = 'http://localhost:5000/api'
 function getToken() {
   return localStorage.getItem('token')
 }
