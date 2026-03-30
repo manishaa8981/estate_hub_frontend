@@ -1,5 +1,5 @@
-const BASE = 'http://estate-hub-backend.onrender.com/api'
-// const BASE = 'http://localhost:5000/api'
+const BASE = import.meta.env.VITE_API_URL;
+
 function getToken() {
   return localStorage.getItem('token')
 }
