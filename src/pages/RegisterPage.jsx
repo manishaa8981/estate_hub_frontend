@@ -72,7 +72,6 @@ export default function RegisterPage() {
           <h2 className="text-4xl font-extrabold text-white mb-4">Start your journey.</h2>
           <p className="text-gray-300 text-lg">Thousands of homes are waiting for you.</p>
         </div>
-        <p className="text-gray-500 text-sm">© {new Date().getFullYear()} EstateHub</p>
       </div>
 
       <div className="flex-1 flex items-center justify-center px-6 py-12 bg-white">
@@ -166,9 +165,6 @@ export default function RegisterPage() {
               {success ? '✓ Redirecting...' : loading ? 'Creating account...' : 'Create Account'}
             </button>
 
-            <p className="text-xs text-gray-400 text-center">
-              By signing up, you agree to our <a href="#" className="underline">Terms</a> and <a href="#" className="underline">Privacy Policy</a>.
-            </p>
           </form>
         </div>
       </div>

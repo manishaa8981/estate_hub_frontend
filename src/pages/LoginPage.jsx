@@ -45,7 +45,6 @@ export default function LoginPage() {
           <h2 className="text-4xl font-extrabold text-white mb-4">Welcome back.</h2>
           <p className="text-gray-300 text-lg">Your next home is just a search away.</p>
         </div>
-        <p className="text-gray-500 text-sm">© {new Date().getFullYear()} EstateHub</p>
       </div>
 
       <div className="flex-1 flex items-center justify-center px-6 py-12 bg-white">
