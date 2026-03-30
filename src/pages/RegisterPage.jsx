@@ -1,6 +1,7 @@
 import { Eye, EyeOff, Home, Lock, Mail, User } from 'lucide-react'
 import { useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
+import Spinner from '../components/Spinner'
 import { useAuth } from '../context/AuthContext'
 
 function PasswordStrength({ password }) {
