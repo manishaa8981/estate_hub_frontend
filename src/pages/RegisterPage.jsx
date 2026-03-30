@@ -98,7 +98,7 @@ export default function RegisterPage() {
               <div className="relative">
                 <User className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-gray-400" />
                 <input
-                  type="text" required placeholder="John Doe"
+                  type="text" required placeholder="Ram Acharya"
                   value={form.name} {...field('name')}
                   disabled={loading || success}
                   className={`w-full pl-10 pr-4 py-3 border rounded-xl text-sm outline-none focus:ring-2 transition disabled:bg-gray-50 disabled:cursor-not-allowed
